@@ -1,9 +1,9 @@
 <?php
 
-namespace Guzzle\Http\QueryAggregator;
+namespace Phil\GuzzleBundle\Http\QueryAggregator;
 
+use Guzzle\Http\QueryAggregator\QueryAggregatorInterface;
 use Guzzle\Http\QueryString;
-use Guzzle\Http\QueryAggregator;
 
 /**
  * Aggregates nested query string variables using PHP style [] without the
