@@ -1,0 +1,37 @@
+{
+  "name" : "phil/guzzle-bundle",
+  "description" : "Add a Symfony and PHP QueryAggregator to Guzzle",
+  "type" : "symfony-bundle",
+  "keywords" : ["symfony2", "guzzle"],
+  "license" : ["MIT"],
+  "homepage": "https://github.com/ph-il/guzzle-bundle",
+  "authors": [
+    {
+      "name": "Philippe Gamache",
+      "email": "philippe@ph-il.ca",
+      "homepage": "http://ph-il.ca",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "securesymfony@ph-il.ca",
+    "issues": "https://github.com/ph-il/guzzle-bundle/issues",
+    "source": "https://github.com/ph-il/guzzle-bundle"
+  },
+  "require" : {
+    "php": ">=5.4.21",
+    "symfony/symfony": "~2.4",
+    "guzzle/guzzle": "~3.8"
+  },
+  "require-dev": {
+    "symfony/finder": "~2.1",
+    "symfony/browser-kit": "~2.1",
+    "satooshi/php-coveralls": "~0.6"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Phil\\GuzzleBundle" : ""
+    }
+  },
+  "target-dir" : "Phil/GuzzleBundle"
+}
