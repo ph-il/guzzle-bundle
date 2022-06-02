@@ -1,6 +1,8 @@
 Phil GuzzleBundle
 ======================
 
+Project Archived
+
 Add a Symfony and PHP QueryAggregator to Guzzle
 
 [![Latest Stable Version](https://poser.pugx.org/phil/guzzle-bundle/v/stable.png)](https://packagist.org/packages/phil/guzzle-bundle)
